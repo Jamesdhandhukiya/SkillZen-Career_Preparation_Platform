@@ -7,12 +7,7 @@ This project now supports automatic fallback to a backup API key when the primar
 Add the following environment variables to your `.env.local` file:
 
 ```env
-# Primary Gemini API Key
-GEMINI_API_KEY=your_primary_api_key_here
 
-# Backup Gemini API Key (will be used when primary quota is exhausted)
-GEMINI_BACKUP_API_KEY=AIzaSyBd-y9HukIGKxi4VCyJJWg489CoabdX-eY
-```
 
 ## How It Works
 
