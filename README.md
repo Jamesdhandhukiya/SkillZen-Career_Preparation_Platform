@@ -1,30 +1,61 @@
-# SkillZen Development
+# 🎓 SkillZen – Smart Career Preparation Platform
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+SkillZen is a web-based career preparation platform designed to help students and job seekers become placement-ready through structured learning, intelligent feedback, and AI-assisted guidance. The platform integrates resume analysis, skill assessment, interview preparation, communication improvement, and salary insights into a single unified system.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/fjaaskslal-8486s-projects/v0-skill-zen-development)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/nmIZpy12X5H)
+---
 
-## Overview
+## 🔧 Tech Stack
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+### Frontend
+- **Next.js** – Primary frontend framework with server-side rendering and routing
+- **React** – Component-based UI development
+- **TypeScript** – Ensures type safety and maintainable code
+- **Tailwind CSS** – Utility-first CSS framework for responsive UI
 
-## Deployment
+### Backend
+- **Next.js API Routes (TypeScript)** – Serverless backend APIs
 
-Your project is live at:
+### Database & Authentication
+- **Supabase (PostgreSQL)** – Backend-as-a-Service for database, authentication, and real-time data
 
-**[https://vercel.com/fjaaskslal-8486s-projects/v0-skill-zen-development](https://vercel.com/fjaaskslal-8486s-projects/v0-skill-zen-development)**
+### APIs & External Integrations
+- **APYHub / APIlayer** – Resume parsing and ATS score calculation
+- **Judge0 API (RapidAPI)** – Secure code execution for coding practice
+- **LanguageTool API** – Grammar, clarity, and tone analysis
+- **Google Gemini API** – AI-powered interview questions and feedback
 
-## Build your app
+### Development Tools
+- **@monaco-editor/react** – In-browser code editor
+- **Git & GitHub** – Version control and collaboration
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/nmIZpy12X5H](https://v0.dev/chat/projects/nmIZpy12X5H)**
+## ⚙️ Key Features
 
-## How It Works
+- User registration and login with secure authentication
+- Resume upload and automated resume parsing
+- ATS-based resume scoring with feedback
+- Aptitude practice (quantitative, logical, verbal)
+- Coding practice with real-time code execution
+- Technical and HR interview question preparation
+- AI-powered interview and communication practice chatbot
+- Grammar and fluency feedback
+- Mock tests with timer and auto-scoring
+- Machine learning–based salary prediction using resume data and location
+- Personalized dashboard with progress tracking
+- Fully responsive design (desktop & mobile)
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🎯 Purpose
+
+SkillZen aims to bridge the gap between academic learning and industry expectations by providing a structured, personalized, and practical career preparation platform. It enables users to evaluate their readiness, improve essential skills, and gain confidence for interviews and placement processes.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/Jamesdhandhukiya/SkillZen-Career_Preparation_Platform.git
+
