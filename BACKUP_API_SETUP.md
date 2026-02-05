@@ -2,11 +2,6 @@
 
 This project now supports automatic fallback to a backup API key when the primary API quota is exhausted.
 
-## Environment Variables
-
-Add the following environment variables to your `.env.local` file:
-
-```env
 
 
 ## How It Works
